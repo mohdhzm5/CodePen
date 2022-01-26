@@ -1,7 +1,6 @@
 import React,{ useState,useEffect} from 'react';
-
+// if want to use JSX
 import Editor from './editor.js';
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -34,6 +33,7 @@ useEffect(() => {
 
 
   return () => clearTimeout(timeout)
+ 
 
 },[html,css,js]
 
@@ -46,22 +46,22 @@ useEffect(() => {
 
       <div className="pane top-pane">
         <Editor language="xml" displayName="HTML" value={html} onChange={setHtml} /*HTML code editor*//>  
-        <Editor language="css" displayName="CSS" value={css} onChange={setCss}/*CSS code editor*//>
+        <Editor language="css" displayName="CSS" value={css} onChange={setCss}    /*CSS code editor*//>
         <Editor language="javascript" displayName="JS" value={js} onChange={setJs}/*JS code editor*//>
       </div>   
 
 
-    <div className="pane">
-        <iframe
-          srcDoc={srcDoc} 
-          title="output" /*Title option*/
-          sandbox="allow-scripts" /*sandbox option*/
-          frameBorders="0"   /*frameBorder option*/
-          width="100%"       /*width-height option*/
+    <div className="pane"> 
+        <iframe     
+          srcDoc={srcDoc}                                                                          /* Specifies the HTML content of the page to show in the <iframe>*/
+          title="output" 
+          sandbox="allow-scripts" 
+          frameBorders="0"  
+          width="100%"       
           height="100%"
   
         ></iframe>
-      </div>
+    </div>
 
   </> 
 

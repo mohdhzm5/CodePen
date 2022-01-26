@@ -23,7 +23,6 @@ const{
 const [open,setOpen] =useState(true)
 
 function handleChange(editor,data,value){
-
   onChange(value)
 }
 
@@ -35,7 +34,7 @@ function handleChange(editor,data,value){
         {displayName}
 
         <button
-         onClick={ ()=> setOpen(prevOpen => !prevOpen)}
+         onClick={ ()=> setOpen(prevOpen => !prevOpen)}   
          >
      
          <FontAwesomeIcon icon={open ? faCompressAlt : faExpandAlt} />

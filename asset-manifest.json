@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CodePen/static/css/main.5f12872f.chunk.css",
+    "main.js": "/CodePen/static/js/main.0c4ac7d8.chunk.js",
+    "main.js.map": "/CodePen/static/js/main.0c4ac7d8.chunk.js.map",
+    "runtime-main.js": "/CodePen/static/js/runtime-main.88d4fe59.js",
+    "runtime-main.js.map": "/CodePen/static/js/runtime-main.88d4fe59.js.map",
+    "static/css/2.da1ca211.chunk.css": "/CodePen/static/css/2.da1ca211.chunk.css",
+    "static/js/2.a042b21f.chunk.js": "/CodePen/static/js/2.a042b21f.chunk.js",
+    "static/js/2.a042b21f.chunk.js.map": "/CodePen/static/js/2.a042b21f.chunk.js.map",
+    "static/js/3.defaa70d.chunk.js": "/CodePen/static/js/3.defaa70d.chunk.js",
+    "static/js/3.defaa70d.chunk.js.map": "/CodePen/static/js/3.defaa70d.chunk.js.map",
+    "index.html": "/CodePen/index.html",
+    "static/css/2.da1ca211.chunk.css.map": "/CodePen/static/css/2.da1ca211.chunk.css.map",
+    "static/css/main.5f12872f.chunk.css.map": "/CodePen/static/css/main.5f12872f.chunk.css.map",
+    "static/js/2.a042b21f.chunk.js.LICENSE.txt": "/CodePen/static/js/2.a042b21f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88d4fe59.js",
+    "static/css/2.da1ca211.chunk.css",
+    "static/js/2.a042b21f.chunk.js",
+    "static/css/main.5f12872f.chunk.css",
+    "static/js/main.0c4ac7d8.chunk.js"
+  ]
+}
